@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+main section.header-mobile {
+  padding: 150px 0;
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  position: relative;
+}
+
+main section.header-mobile .show-case-heading {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+main section.header-mobile .show-case-disdcription {
+  font-size: 18px;
+}
+
+main section.buisness-based {
+  top: -55px;
+}
+
+main section.time-to-change, 
+main section.life-style-section, 
+main section.testimonial-section {
+  padding: 60px 0;
+}
+
+main section.testimonial-section .owl-carousel .item img {
+  width: unset;
+}
+
+main section.testimonial-section .owl-theme .owl-dots .owl-dot.active span, 
+main section.testimonial-section .owl-theme .owl-dots .owl-dot:hover span {
+  background: #2e7eed;
+}
+
+footer .mega-footer {
+  padding: 60px 0;
+  background: #000;
+}
+
+footer .mega-footer ul.social-icons li {
+  height: 40px;
+  width: 40px;
+  background: grey;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+footer .mega-footer ul.social-icons li a i {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer .mega-footer a {
+  text-decoration: none;
+}
+
+footer .mega-footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .copyright {
+  padding: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
+/* new */
+.about-us{
+    border: 2px solid #fff;
+    padding: 14px 26px;
+    border-radius: 32px;
+}
