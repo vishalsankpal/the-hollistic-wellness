@@ -1,3 +1,44 @@
+@media only screen and (min-width: 992px) {
+  main.school-health-page {
+    margin-top: 55px;
+  }
+}
+
+main.school-health-page .breadcrumb-banner {
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  padding: 80px 0;
+}
+
+main.school-health-page .breadcrumb-banner h1 {
+  letter-spacing: 2px;
+}
+
+main.school-health-page .item {
+  padding: 20px;
+}
+
+main.school-health-page .active.center {
+  background: -webkit-gradient(linear, right top, left top, from(#5de7ff), to(#0092ec));
+  background: linear-gradient(to left, #5de7ff, #0092ec);
+  border-radius: 6px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-box-shadow: 0px 0px 10px #5de7ff;
+  box-shadow: 0px 0px 10px #5de7ff;
+  color: #fff !important;
+}
+
+main.school-health-page .active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 html {
   scroll-behavior: smooth;
 }
