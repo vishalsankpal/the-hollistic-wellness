@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+main{
+    section{
+        &.header-mobile{
+            padding: 150px 0;
+            background:linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+            position: relative;
+            .show-case-heading{
+                font-size: 45px;
+                font-weight: 700;
+                letter-spacing: 2px;
+            }
+            .show-case-disdcription{
+                font-size: 18px;
+            }
+        }
+        &.buisness-based{
+            top: -55px;
+            p,h3{
+                letter-spacing: 0.7px;
+            }
+        }
+        &.time-to-change{
+            padding: 60px 0;
+        }
+        &.life-style-section{
+            @extend .time-to-change;
+        }
+        &.product-section{
+            @extend .life-style-section;
+        }
+        &.testimonial-section{
+            @extend .life-style-section;
+            .owl-carousel{
+                .item{
+                    img{
+                        width: unset;
+                    }
+                }
+            }
+            .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+                background: #2e7eed;
+            }
+        }
+    }
+}
+footer{
+    .mega-footer{
+        padding: 60px 0;
+        background: #000;
+        ul.social-icons {
+            li{
+                height: 40px;
+                width: 40px;
+                background: grey;
+                border-radius: 50%;
+                margin: 10px;
+                a{
+                    i{
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            &:hover{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    .copyright{
+        padding: 10px 0;
+    }
+}
