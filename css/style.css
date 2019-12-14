@@ -125,4 +125,22 @@ footer .mega-footer a:hover {
 footer .copyright {
   padding: 10px 0;
 }
+
+
+.icon {
+  background: url(../images/iconstrip.png);
+  height: 50px;
+  width: 50px;
+  background-size: 150px 50px;
+  margin: auto;
+}
+.corporate{
+  background-position-x: 0;
+}
+.school{
+  background-position-x: 100px;
+}
+.industry{
+  background-position-x: 50px;
+}
 /*# sourceMappingURL=style.css.map */
