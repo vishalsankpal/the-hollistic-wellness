@@ -193,6 +193,10 @@ footer .mega-footer {
   background: #000;
 }
 
+footer .mega-footer .footer-logo {
+  width: 100px;
+}
+
 footer .mega-footer ul.social-icons li {
   height: 40px;
   width: 40px;
