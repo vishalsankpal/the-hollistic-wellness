@@ -1,0 +1,28 @@
+.randomservice{
+    height: 500px;
+    width: 100%;
+    background-color: azure;
+}
+
+.randomservice .middleicon{
+    height: 100px;
+    width: 100px;
+    background: url(../images/center-img.png);
+    background-size: contain;
+    margin: auto;
+}
+
+.randomservice .servicebox{
+    height: 200px;
+    width: 400px;
+    display: flex;
+}
+.randomservice .servicebox2{
+    height: 100%;
+    display: flex;
+}
+
+.randomservice .servicebox .servicetext{
+    margin: auto;
+    text-align: center;
+}
