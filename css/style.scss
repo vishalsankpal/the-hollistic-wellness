@@ -13,6 +13,9 @@ body{
 }
 main{
     section{
+        .paragraph-text{
+            font-size: 18px;
+        }
         &.header-mobile{
             padding: 150px 0;
             background:$theme-gardient;
@@ -32,14 +35,44 @@ main{
                 font-size: 18px;
             }
         }
+        
         &.buisness-based{
             top: -55px;
             p,h3{
                 letter-spacing: 0.7px;
             }
         }
+        &.about-us{
+            
+        }
         &.time-to-change{
             padding: 60px 0;
+        }
+        &.explore-more{
+            padding: 60px 0;
+            .border-right {
+                border-right: 1px solid #dee2e6;
+            }
+            .nav-pills{
+                .nav-link {
+                    padding-left: 0;
+                    font-size: 26px;
+                    font-weight: 100;
+                    color: #adb5bd;
+                    line-height: 1.2;
+                    margin-bottom: 10px;
+                }
+                .nav-link.active {
+                    background: none;
+                    color: #007bff;
+                    padding-left: 20px;
+                    position: relative;
+                }
+            } 
+        }
+        &.staff-recruitment-services{
+            padding: 60px 0;
+
         }
         &.life-style-section{
             @extend .time-to-change;
