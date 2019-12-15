@@ -52,6 +52,10 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+header nav .navbar-brand img {
+  width: 80px;
+}
+
 main section .paragraph-text {
   font-size: 18px;
 }
@@ -87,6 +91,26 @@ main section.buisness-based p, main section.buisness-based h3 {
   letter-spacing: 0.7px;
 }
 
+main section.buisness-based .icon {
+  background: url(../images/iconstrip.png);
+  height: 50px;
+  width: 50px;
+  background-size: 150px 50px;
+  margin: auto;
+}
+
+main section.buisness-based .corporate {
+  background-position-x: 0;
+}
+
+main section.buisness-based .school {
+  background-position-x: 100px;
+}
+
+main section.buisness-based .industry {
+  background-position-x: 50px;
+}
+
 main section.time-to-change, main section.life-style-section, main section.product-section, main section.testimonial-section {
   padding: 60px 0;
 }
@@ -118,6 +142,42 @@ main section.explore-more .nav-pills .nav-link.active {
 
 main section.staff-recruitment-services {
   padding: 60px 0;
+}
+
+main section.our-services {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+main section.our-services .servicebox {
+  margin-top: 30px;
+}
+
+main section.our-services .servicebox2 {
+  text-align: center;
+  margin: 30px 0 0;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  main section.our-services .servicebox {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  main section.our-services .single_feature_img {
+    text-align: center;
+    margin: 30px 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  main section.our-services .middleicon img {
+    width: 50%;
+    text-align: center;
+  }
 }
 
 main section.testimonial-section .owl-carousel .item img {
@@ -157,22 +217,5 @@ footer .mega-footer a:hover {
 
 footer .copyright {
   padding: 10px 0;
-}
-
-.icon {
-  background: url(../images/iconstrip.png);
-  height: 50px;
-  width: 50px;
-  background-size: 150px 50px;
-  margin: auto;
-}
-.corporate{
-  background-position-x: 0;
-}
-.school{
-  background-position-x: 100px;
-}
-.industry{
-  background-position-x: 50px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,6 +11,16 @@ body{
     font-weight: 400;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
+
+header{
+    nav{
+        .navbar-brand{
+            img{
+                width: 80px;
+            }
+        }
+    }
+}
 main{
     section{
         .paragraph-text{
@@ -40,6 +50,25 @@ main{
             top: -55px;
             p,h3{
                 letter-spacing: 0.7px;
+            }
+            .icon {
+                background: url(../images/iconstrip.png);
+                height: 50px;
+                width: 50px;
+                background-size: 150px 50px;
+                margin: auto;
+            }
+
+            .corporate {
+                background-position-x: 0;
+            }
+
+            .school {
+                background-position-x: 100px;
+            }
+
+            .industry {
+                background-position-x: 50px;
             }
         }
         &.about-us{
@@ -74,6 +103,40 @@ main{
         &.staff-recruitment-services{
             padding: 60px 0;
 
+        }
+        &.our-services{
+            padding: 60px 0;
+            background: #f9f9f9;
+            .servicebox {
+                margin-top: 30px;
+            }
+    
+            .servicebox2 {
+                text-align: center;
+                margin: 30px 0 0;
+            }
+    
+            @media only screen and (max-width: 991px) and (min-width: 768px){
+                .servicebox {
+                    width: 50%;
+                    float: left;
+                    padding: 0 15px;
+                }
+            }
+    
+            @media (max-width: 991px) {
+                .single_feature_img {
+                    text-align: center;
+                    margin: 30px 0 0;
+                }
+            }
+    
+            @media (max-width: 600px) {
+                .middleicon img{
+                    width: 50%;
+                    text-align: center;
+                }
+            }
         }
         &.life-style-section{
             @extend .time-to-change;

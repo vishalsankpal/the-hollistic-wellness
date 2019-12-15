@@ -32,7 +32,10 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">THW</a>
+                    <!-- <a class="navbar-brand" href="#">THW</a> -->
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.jpeg" alt="" srcset="">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -175,7 +178,7 @@
                     </div>
                 </div>
             </section>
-            <!-- Explore more -->
+            <!-- Explore more start-->
             <section class="section custom-tabs explore-more">
                 <div class="container">
                     <h2 class="text-center mb-5">Explore More</h2>
@@ -297,6 +300,8 @@
                     </div>
                 </div>
             </section>
+            <!-- explorer more end -->
+            <!-- staff recruitment start -->
             <section class="staff-recruitment-services">
                 <div class="container">
                     
@@ -325,6 +330,47 @@
                     </div>
                 </div>
             </section>
+            <!-- staff recruitment end -->
+            <!-- our services start -->
+            <section class="our-services">
+                <div class="container randomservice" id="rs">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="servicebox">
+                                <div class="servicetext text-lg-right text-center"></div>
+                            </div>
+                            <div class="servicebox">
+                                <div class="servicetext text-lg-right text-center"></div>
+                            </div>
+                            <div class="servicebox w-100 text-center">
+                                <div class="servicetext text-lg-right text-center"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="servicebox2">
+                                <div class="middleicon">
+                                    <img src="https://colorlib.com/preview/theme/medico/img/service.png" alt="middle"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="servicebox">
+                                <div class="servicetext text-lg-left text-center"></div>
+                            </div>
+                            <div class="servicebox">
+                                <div class="servicetext text-lg-left text-center"></div>
+                            </div>
+                            <div class="servicebox w-100 text-center">
+                                <div class="servicetext text-lg-left text-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            
+            <!-- our services end -->
             <!-- productivity section end -->
             <!-- An interface for lifestyle start -->
             <!-- <section class="bg-light life-style-section">
@@ -729,5 +775,50 @@
             var name = 'TEAM';
             $('.name').text(name);
         </script>
+        <script>
+                var servicelist = [
+                "Preventive health check-up",
+                "Diagnostics services",
+                "OPD services",
+                "Onesite services",
+                "OHC (medical room services)",
+                "Onesite services",
+                "Health screening module for students ",
+                "Health awareness modules ",
+                "First Aid Training",
+                "Vaccination",
+                "Pre-Employment Health Check-up",
+                "Worker Health Check-up Camps",
+                "Health Education Talk and Medical Consoling",
+                "Wellness Programs",
+                "Medical equipment and Consumables Supplies",
+                "Pharmacy",
+                "Report Analysis",
+                "Nutrition, Yoga, Zumba Camps",
+                "Disease and Stress Management",
+                "Sex Education",
+                "Vision and Oral Care",
+                "Women Health",
+                "Workshop / Training session on Safety"
+            ];
+            
+            var element = $('#rs .servicebox .servicetext');
+            
+            element[0].innerHTML = servicelist[0];
+            element[1].innerHTML = servicelist[1];
+            element[2].innerHTML = servicelist[2];
+            element[3].innerHTML = servicelist[3];
+            element[4].innerHTML = servicelist[4];
+            element[5].innerHTML = servicelist[5];
+            
+            var timer = setInterval(function(){
+                element.fadeOut(100);
+                for(i=0; i<6; i++){
+                    var index = Math.floor((Math.random() * 23) + 1);
+                    element[i].innerHTML = servicelist[index];
+                }
+                element.fadeIn(1000);
+            },3000);
+            </script>
     </body>
 </html>
