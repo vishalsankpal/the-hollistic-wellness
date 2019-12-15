@@ -52,6 +52,10 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+main section .paragraph-text {
+  font-size: 18px;
+}
+
 main section.header-mobile {
   padding: 150px 0;
   background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
@@ -84,6 +88,34 @@ main section.buisness-based p, main section.buisness-based h3 {
 }
 
 main section.time-to-change, main section.life-style-section, main section.product-section, main section.testimonial-section {
+  padding: 60px 0;
+}
+
+main section.explore-more {
+  padding: 60px 0;
+}
+
+main section.explore-more .border-right {
+  border-right: 1px solid #dee2e6;
+}
+
+main section.explore-more .nav-pills .nav-link {
+  padding-left: 0;
+  font-size: 26px;
+  font-weight: 100;
+  color: #adb5bd;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+main section.explore-more .nav-pills .nav-link.active {
+  background: none;
+  color: #007bff;
+  padding-left: 20px;
+  position: relative;
+}
+
+main section.staff-recruitment-services {
   padding: 60px 0;
 }
 
@@ -124,23 +156,5 @@ footer .mega-footer a:hover {
 
 footer .copyright {
   padding: 10px 0;
-}
-
-
-.icon {
-  background: url(../images/iconstrip.png);
-  height: 50px;
-  width: 50px;
-  background-size: 150px 50px;
-  margin: auto;
-}
-.corporate{
-  background-position-x: 0;
-}
-.school{
-  background-position-x: 100px;
-}
-.industry{
-  background-position-x: 50px;
 }
 /*# sourceMappingURL=style.css.map */
