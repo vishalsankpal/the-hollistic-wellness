@@ -51,6 +51,10 @@ main.school-health-page .active {
   filter: grayscale(100%);
 }
 
+main.school-health-page section.program-deliverables {
+  padding: 60px 0;
+}
+
 header nav .navbar-brand img {
   width: 80px;
 }

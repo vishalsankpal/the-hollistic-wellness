@@ -32,4 +32,9 @@ main.school-health-page{
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
+    section{
+        &.program-deliverables{
+            padding: 60px 0;
+        }
+    }
 }
