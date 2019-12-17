@@ -98,7 +98,7 @@
                     <div class="row">
                         <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center">
                             <h1 class="show-case-heading text-white mb-4 text-center text-md-left text-uppercase">The Holistic Wellness</h1>
-                            <p class="show-case-disdcription text-white mb-4 text-center text-md-left">The Holistic Wellness is corporate health and wellness service provider. No matter the size of your organisation, we can provide customised service that will help you to deliver better wellness programs to your employees.</p>
+                            <p class="show-case-disdcription text-white mb-4 text-center text-md-left">Holistic medicine is a form of healing that considers the whole person body, mind, spirit, and emotions in the quest for optimal health and wellness. According to the holistic medicine philosophy, one can achieve optimal health the primary goal of holistic medicine practice by gaining proper balance in life.</p>
                             <a href="" class="d-inline-block text-center text-md-left">
                                 <button class="text-uppercase text-white bg-primary about-us">
                                     Make an Appointment
@@ -120,20 +120,17 @@
                             <div class="col-md-4 mb-4 mb-md-0 text-center">
                                 <div class="icon corporate"></div>
                                 <h3 class="text-capitalize mt-4 h5">Corporate Health</h3>
-                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                                    non, recusandae tempore ipsam dignissimos molestias.</p>
+                                <p class="text-muted">Corporate services are designed to sustain good health of employees irrespective of their work environment. Our services can be custom designed for employees as per their work environment & specific industry requirements.</p>
                             </div>
                             <div class="col-md-4 mb-4 mb-md-0 text-center">
                                 <div class="icon school"></div>
                                 <h3 class="text-capitalize mt-4 h5">School Health</h3>
-                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                                    non, recusandae tempore ipsam dignissimos molestias.</p>
+                                <p class="text-muted">The Holistic Wellness is a leading private sector organization working in School Health. We enable Schools across the country to develop a Healthier student population and inculcate positive Health behaviours and attitudes. </p>
                             </div>
                             <div class="col-md-4 mb-4 mb-md-0 text-center">
                                 <div class="icon industry"></div>
                                 <h3 class="text-capitalize mt-4 h5">Industrial Health</h3>
-                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                                    non, recusandae tempore ipsam dignissimos molestias.</p>
+                                <p class="text-muted">The Prevention of work accidents and industrial diseases and control of workplace hazard as well as the development of a work environment and work conducive to workers health are the main purpose of industrial health services.</p>
                             </div>
                         </div>
                     </div>
@@ -156,7 +153,7 @@
                                     <!-- <a href="#"> Small Apps </a> -->
                                 </h2>
                                 <p class="mb-2 paragraph-text">
-                                    The Holistic Wellness is corporate health and wellness service provider. No matter
+                                    Holistic medicine is a form of healing that considers the whole person body, mind, spirit, and emotions in the quest for optimal health and wellness. According to the holistic medicine philosophy, one can achieve optimal health the primary goal of holistic medicine practice by gaining proper balance in life. No matter
                                     the size of your organisation, we can provide customised service that will help you
                                     to deliver better wellness programs to your employees.
                                 </p>
@@ -652,21 +649,22 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2 col-md-12 text-center text-lg-left align-self-center mb-4">
-                            <h1 class="text-white text-left">
+                            <h1 class="text-white text-center">
                                 <img src="./images/logo.png" class="footer-logo" alt="" srcset="">
                             </h1>
-                            
+                            <h6 class="text-uppercase text-white mb-4 text-center"> The Holistick Wellness</h6>
                         </div>
-                        <div class="col-lg-3 col-md-12 text-center text-lg-left align-self-center mb-4">
+                        <div class="col-lg-4 col-md-12 text-center text-lg-left align-self-center mb-4">
                             <!-- <img src="./images/small-footer-logo.png" class="img-fluid mb-3" alt="" srcset=""> -->
                             <ul class="list-inline">
                                 <li class="mb-3">
-                                    <a href="">254/255, Laxmi Madhav Apartment, Flat No. 23, Shivaji Nagar Pune
-                                        – 411005</a>
+                                    <a href="">254/255, Laxmi Madhav Apartment, Flat No. 23, Shivaji Nagar Pune – 411005</a>
                                 </li>
                                 <li class="mb-3">
-                                    <span></span><a href="tel:8552997599">8552997599</a>/<a
-                                        href="tel:8087678977">8087678977</a>
+                                    <span>
+                                    <a href="tel:8552997599">8552997599</a>/
+                                    <a href="tel:8087678977">8087678977</a>
+                                </span>
                                 </li>
                                 <li class="mb-3">
                                     <span></span> <a
@@ -674,7 +672,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center text-md-left mb-4">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center text-md-left mb-4">
                             <h6 class="text-uppercase text-white mb-4"> Quick Links</h6>
                             <ul class="list-inline">
                                 <li>
@@ -710,10 +708,6 @@
                                     <a href="">Ambulance services</a>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center text-md-left mb-4">
-                            <h6 class="text-uppercase text-white mb-4"> The Holistick Wellness</h6>
-                            Quote
                         </div>
                     </div>
                 </div>
@@ -781,7 +775,8 @@
             ];
             
             var element = $('#rs .servicebox .servicetext');
-            
+            var randomehistory = "";
+
             element[0].innerHTML = servicelist[0];
             element[1].innerHTML = servicelist[1];
             element[2].innerHTML = servicelist[2];
@@ -792,8 +787,13 @@
             var timer = setInterval(function(){
                 element.fadeOut(100);
                 for(i=0; i<6; i++){
-                    var index = Math.floor((Math.random() * 23) + 1);
+                    var randomenow = Math.floor((Math.random() * 23) + 1);
+                    var index = randomenow;
+                    if(randomenow==randomehistory){
+                        randomenow = Math.floor((Math.random() * 23) + 1);
+                    }
                     element[i].innerHTML = servicelist[index];
+                    randomehistory = randomenow;
                 }
                 element.fadeIn(1000);
             },3000);
