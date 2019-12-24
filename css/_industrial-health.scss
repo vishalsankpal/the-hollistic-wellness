@@ -1,0 +1,70 @@
+main.industrial-health-page{
+    @media only screen and (min-width:100px){
+        margin-top: 55px;
+    }
+    .breadcrumb-banner{
+        background: $theme-gardient;
+        padding: 70px 0 10px 0;
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+    .para{
+        padding:50px 0;
+        .row{
+            position: relative;
+        }
+        .boxs{
+            margin: auto;
+        } 
+        .card{
+            padding: 30px;
+            line-height: 2.0;
+        }
+    }
+    .item{
+        padding: 20px;
+    }
+    .active.center {
+        background: -webkit-gradient(linear, right top, left top, from(#5de7ff), to(#0092ec));
+        background: linear-gradient(to left, #5de7ff, #0092ec);
+        border-radius: 6px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-box-shadow: 0px 0px 10px #5de7ff;
+        box-shadow: 0px 0px 10px #5de7ff;
+        color: #fff !important;
+    }
+    .active {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        -webkit-transition: .6s ease;
+        transition: .6s ease;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    section{
+        &.section-padding{
+            padding: 60px 0;
+        }
+        &.program-deliverables{
+            background-color: rgb(243, 240, 240);
+            p.mw-700{
+                max-width: 700px;
+            }
+        }
+    }
+        
+
+    .objective{
+        background-color: rgb(243, 240, 240);
+    }
+
+    .services{
+
+    }
+        
+}
+
