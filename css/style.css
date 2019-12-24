@@ -33,7 +33,7 @@ main.school-health-page .para .row {
   position: relative;
 }
 
-main.school-health-page .para .boxf, main.school-health-page .para .boxs {
+main.school-health-page .para .boxs {
   margin: auto;
 }
 
@@ -111,7 +111,8 @@ main.school-health-page .health-screening .MS-content .item {
   margin: 0 10px;
   /* recommended */
   text-align: center;
-  height: 300px;
+  min-height: 505px;
+  height: auto;
 }
 
 main.school-health-page .health-screening .MS-content .item li {

@@ -14,7 +14,7 @@ main.school-health-page{
         .row{
             position: relative;
         }
-        .boxf,.boxs{
+        .boxs{
             margin: auto;
         } 
         .card{
@@ -80,7 +80,9 @@ main.school-health-page{
             white-space: normal; 
             margin: 0 10px;    /* recommended */
             text-align: center;
-            height: 300px;
+            min-height: 505px;
+            height: auto;
+            // height: 300px;
         }
         .MS-content .item li{
             text-align: left;
