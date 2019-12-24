@@ -111,7 +111,6 @@ main.school-health-page .health-screening .MS-content .item {
   margin: 0 10px;
   /* recommended */
   text-align: center;
-  min-height: 505px;
   height: auto;
 }
 
@@ -169,6 +168,171 @@ main.school-health-page .health-awareness .odd .col-lg-8 {
 }
 
 main.school-health-page .health-awareness .odd .col-lg-4 {
+  left: -55px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 100px) {
+  main.corporate-health {
+    margin-top: 55px;
+  }
+}
+
+main.corporate-health .breadcrumb-banner {
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  padding: 70px 0 10px 0;
+}
+
+main.corporate-health .breadcrumb-banner h1 {
+  letter-spacing: 2px;
+}
+
+main.corporate-health .para {
+  padding: 50px 0;
+}
+
+main.corporate-health .para .row {
+  position: relative;
+}
+
+main.corporate-health .para .boxs {
+  margin: auto;
+}
+
+main.corporate-health .para .card {
+  padding: 30px;
+  line-height: 2.0;
+}
+
+main.corporate-health .item {
+  padding: 20px;
+}
+
+main.corporate-health .active.center {
+  background: -webkit-gradient(linear, right top, left top, from(#5de7ff), to(#0092ec));
+  background: linear-gradient(to left, #5de7ff, #0092ec);
+  border-radius: 6px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-box-shadow: 0px 0px 10px #5de7ff;
+  box-shadow: 0px 0px 10px #5de7ff;
+  color: #fff !important;
+}
+
+main.corporate-health .active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+main.corporate-health section.section-padding {
+  padding: 60px 0;
+}
+
+main.corporate-health section.program-deliverables {
+  background-color: #f3f0f0;
+}
+
+main.corporate-health section.program-deliverables p.mw-700 {
+  max-width: 700px;
+}
+
+main.corporate-health .health-screening #exampleSlider {
+  position: relative;
+  /* recommended */
+}
+
+main.corporate-health .health-screening #exampleSlider .MS-content {
+  white-space: nowrap;
+  /* required */
+  overflow: hidden;
+  /* required */
+  margin: 0 5%;
+  /* makes room for L/R arrows */
+}
+
+main.corporate-health .health-screening .MS-content .item {
+  display: inline-block;
+  /* required */
+  width: 31%;
+  /* required * Determines number of visible slides */
+  position: relative;
+  /* required */
+  vertical-align: top;
+  /* required */
+  overflow: hidden;
+  /* required */
+  height: 100%;
+  /* recommended */
+  white-space: normal;
+  margin: 0 10px;
+  /* recommended */
+  text-align: center;
+  min-height: 505px;
+  height: auto;
+}
+
+main.corporate-health .health-screening .MS-content .item li {
+  text-align: left;
+}
+
+main.corporate-health .health-screening #exampleSlider .MS-controls button {
+  all: unset;
+  position: absolute;
+  /* recommended */
+  top: 35px;
+}
+
+main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
+  left: 10px;
+}
+
+main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
+  right: 10px;
+}
+
+main.corporate-health .health-awareness {
+  background-color: #f3f0f0;
+}
+
+main.corporate-health .health-awareness .card {
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9fffd), color-stop(1%, rgba(249, 255, 253, 0.99)), color-stop(52%, rgba(255, 255, 255, 0.48)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom, #f9fffd 0%, rgba(249, 255, 253, 0.99) 1%, rgba(255, 255, 255, 0.48) 52%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fffd', endColorstr='#00ffffff',GradientType=0 );
+}
+
+main.corporate-health .health-awareness .text p {
+  text-align: center;
+}
+
+main.corporate-health .health-awareness .even .col-lg-8 {
+  left: -80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main.corporate-health .health-awareness .even .col-lg-4 {
+  left: 55px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main.corporate-health .health-awareness .odd .col-lg-8 {
+  left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main.corporate-health .health-awareness .odd .col-lg-4 {
   left: -55px;
   z-index: 1;
   margin-top: 40px;
