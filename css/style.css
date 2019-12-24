@@ -339,6 +339,80 @@ main.corporate-health .health-awareness .odd .col-lg-4 {
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 100px) {
+  main.industrial-health-page {
+    margin-top: 55px;
+  }
+}
+
+main.industrial-health-page .breadcrumb-banner {
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  padding: 70px 0 10px 0;
+}
+
+main.industrial-health-page .breadcrumb-banner h1 {
+  letter-spacing: 2px;
+}
+
+main.industrial-health-page .para {
+  padding: 50px 0;
+}
+
+main.industrial-health-page .para .row {
+  position: relative;
+}
+
+main.industrial-health-page .para .boxs {
+  margin: auto;
+}
+
+main.industrial-health-page .para .card {
+  padding: 30px;
+  line-height: 2.0;
+}
+
+main.industrial-health-page .item {
+  padding: 20px;
+}
+
+main.industrial-health-page .active.center {
+  background: -webkit-gradient(linear, right top, left top, from(#5de7ff), to(#0092ec));
+  background: linear-gradient(to left, #5de7ff, #0092ec);
+  border-radius: 6px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-box-shadow: 0px 0px 10px #5de7ff;
+  box-shadow: 0px 0px 10px #5de7ff;
+  color: #fff !important;
+}
+
+main.industrial-health-page .active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+main.industrial-health-page section.section-padding {
+  padding: 60px 0;
+}
+
+main.industrial-health-page section.program-deliverables {
+  background-color: #f3f0f0;
+}
+
+main.industrial-health-page section.program-deliverables p.mw-700 {
+  max-width: 700px;
+}
+
+main.industrial-health-page .objective {
+  background-color: #f3f0f0;
+}
+
 header nav .navbar-brand img {
   width: 80px;
 }
