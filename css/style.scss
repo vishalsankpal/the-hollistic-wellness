@@ -58,15 +58,12 @@ main{
                 background-size: 150px 50px;
                 margin: auto;
             }
-
             .corporate {
                 background-position-x: 0;
             }
-
             .school {
                 background-position-x: 100px;
             }
-
             .industry {
                 background-position-x: 50px;
             }
@@ -102,7 +99,6 @@ main{
         }
         &.staff-recruitment-services{
             padding: 60px 0;
-
         }
         &.our-services{
             padding: 60px 0;
@@ -110,12 +106,10 @@ main{
             .servicebox {
                 margin-top: 30px;
             }
-    
             .servicebox2 {
                 text-align: center;
                 margin: 30px 0 0;
             }
-    
             @media only screen and (max-width: 991px) and (min-width: 768px){
                 .servicebox {
                     width: 50%;
