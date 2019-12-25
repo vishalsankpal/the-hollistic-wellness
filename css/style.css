@@ -549,6 +549,52 @@ main section.testimonial-section .owl-theme .owl-dots .owl-dot.active span, main
   background: #2e7eed;
 }
 
+main .form-section {
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  padding: 60px 0;
+}
+
+main .form-section .form-control {
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+  height: unset;
+  padding: 10px 20px;
+}
+
+main .form-section option {
+  color: #000;
+}
+
+main .form-section ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+main .form-section :-ms-input-placeholder {
+  color: #fff;
+}
+
+main .form-section ::-ms-input-placeholder {
+  color: #fff;
+}
+
+main .form-section ::placeholder {
+  color: #fff;
+}
+
+main .form-section .make-an-appointment {
+  padding: 12px 20px;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #02225b;
+  outline: unset;
+}
+
+main .form-section .make-an-appointment :focus {
+  outline: unset;
+}
+
 footer .mega-footer {
   padding: 60px 0;
   background: #000;
