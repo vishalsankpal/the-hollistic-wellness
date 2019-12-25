@@ -590,8 +590,12 @@ main .form-section .make-an-appointment {
   outline: unset;
 }
 
-main .form-section .make-an-appointment :focus {
+main .form-section .make-an-appointment:focus {
   outline: unset;
+}
+
+main .form-section .make-an-appointment:hover {
+  background: #0062cc !important;
 }
 
 footer .mega-footer {
