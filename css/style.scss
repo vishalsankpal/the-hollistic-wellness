@@ -154,6 +154,34 @@ main{
             }
         }
     }
+    .form-section{
+        background: $theme-gardient;
+        padding: 60px 0;
+        .form-control{
+            background: transparent;
+            color: #fff;
+            font-size: 20px;
+            height: unset;
+            padding: 10px 20px;
+        }
+        option{
+            color: #000;
+        }
+        ::placeholder{
+            color: #fff;
+        }
+        .make-an-appointment{
+            padding: 12px 26px;
+            font-size: 20px;
+            border: 1px solid #fff;
+            border-radius: 30px;
+            
+            outline: unset;
+            :focus{
+                outline: unset;
+            }
+        }
+    }
 }
 footer{
     .mega-footer{
