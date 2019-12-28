@@ -30,11 +30,17 @@ main{
             @media only screen and (max-width:991px){
                 font-size: 16px;
             }
+            @media only screen and (max-width:475px){
+                font-size: 14px;
+            }
         }
         .section-heading{
             font-size: 32px;
             @media only screen and (max-width:600px){
                 font-size: 26px;
+            }
+            @media only screen and (max-width:475px){
+                font-size: 22px;
             }
         }
         &.header-mobile{
