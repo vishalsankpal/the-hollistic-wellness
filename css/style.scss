@@ -66,7 +66,7 @@ main{
                 }
             }
             .about-us{
-                border: 2px solid #fff;
+                all: unset;
                 padding: 11px 25px;
                 border-radius: 26px;
                 font-size: 18px;
@@ -209,7 +209,9 @@ main{
         }
     }
     .form-section{
-        background: $theme-gardient;
+        background: linear-gradient(45deg, #44677e, #31446d6b),url(../images/appointmentbg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
         padding: 60px 0;
         .form-control{
             background: transparent;
@@ -225,9 +227,9 @@ main{
             color: #fff;
         }
         .make-an-appointment{
+            all: unset;
             padding: 12px 26px;
             font-size: 20px;
-            border: 1px solid #fff;
             border-radius: 30px;
             @media only screen and (max-width:991px){
                 font-size: 16px;

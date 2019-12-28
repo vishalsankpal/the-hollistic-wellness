@@ -647,7 +647,7 @@ main section.header-mobile .show-case-disdcription {
 }
 
 main section.header-mobile .about-us {
-  border: 2px solid #fff;
+  all: unset;
   padding: 11px 25px;
   border-radius: 26px;
   font-size: 18px;
@@ -811,7 +811,9 @@ main section.testimonial-section .owl-theme .owl-dots .owl-dot.active span, main
 }
 
 main .form-section {
-  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  background: linear-gradient(45deg, #44677e, #31446d6b), url(../images/appointmentbg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   padding: 60px 0;
 }
 
@@ -844,9 +846,9 @@ main .form-section ::placeholder {
 }
 
 main .form-section .make-an-appointment {
+  all: unset;
   padding: 12px 26px;
   font-size: 20px;
-  border: 1px solid #fff;
   border-radius: 30px;
   outline: unset;
 }

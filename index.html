@@ -97,7 +97,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center">
-                            <h1 class="show-case-heading text-white mb-4 text-center text-md-left text-uppercase">The Holistic Wellness</h1>
+                            <h1 class="show-case-heading text-white mb-4 text-center text-md-left text-uppercase">The Holistic <br><span id="typed"></span></h1>
                             <p class="show-case-disdcription text-white mb-4 text-center text-md-left">Holistic medicine is a form of healing that considers the whole person body, mind, spirit, and emotions in the quest for optimal health and wellness. According to the holistic medicine philosophy, one can achieve optimal health the primary goal of holistic medicine practice by gaining proper balance in life.</p>
                             <a href="#appointment-form" class="d-inline-block text-center text-md-left">
                                 <button class="text-uppercase text-white bg-primary about-us">
@@ -496,6 +496,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script src="./js/dateAndCompanyName.js"></script>
         <script src="./js/customOwlCarosal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         
         <script>
                 var servicelist = [
@@ -547,6 +548,15 @@
                 }
                 element.fadeIn(1000);
             },3000);
+// Can also be included with a regular script tag
+
+                var options = {
+                strings: ['<span>WELLNESS</span>', '<span>WELLNESS</span>'],
+                typeSpeed: 30,
+                loop: true
+                };
+
+                var typed = new Typed('#typed', options);
             </script>
             <script src="./js/appointment.js"></script>
     </body>
