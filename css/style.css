@@ -144,6 +144,7 @@ main.school-health-page .health-screening #exampleSlider .MS-controls button {
   border-radius: 50%;
   text-align: center;
   color: #fff;
+  top: 35px;
 }
 
 main.school-health-page .health-screening #exampleSlider .MS-controls .MS-left {
@@ -250,17 +251,21 @@ main.school-health-page .health-awareness .odd .col-lg-4 {
   margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 991px) {
-  main.school-health-page .health-awareness .odd .col-lg-4 {
-    left: -135px;
+@media only screen and (max-width: 600px) {
+  main.school-health-page .health-awareness .row.even .col-sm-4 {
+    left: -28px;
   }
 }
 
-@media only screen and (max-width: 575px) {
-  main.school-health-page .health-awareness .odd .col-lg-4 {
-    left: unset;
-    margin-top: unset;
-    margin-bottom: unset;
+@media only screen and (max-width: 600px) {
+  main.school-health-page .health-awareness .row.odd .col-sm-4 {
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main.school-health-page .health-awareness .row img {
+    width: 200px;
   }
 }
 

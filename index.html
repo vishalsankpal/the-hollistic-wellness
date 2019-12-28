@@ -369,26 +369,36 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
                             <h1 class="text-center text-lg-left text-white lg-5 section-heading">Make an Appointment</h1>
-                            <form action="">
+                            <form action="javascript:" id="appointmentform">
                                 <div class="row">
                                     <div class="col-md-6 mb-4" >
-                                        <input type="text" name="" placeholder="Name" class="form-control" id="" required>
+                                        <input type="text" name="name" placeholder="Enter full name" class="form-control" id="" required>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <input type="email" name="" placeholder="Email address" class="form-control" id="" required>
+                                        <input type="email" name="emailid" placeholder="Email address" class="form-control" id="" required>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <select name="" class="form-control" id="" required>
-                                            <option value="val1">Service 1</option>
-                                            <option value="val1">Service 1</option>
-                                            <option value="val1">Service 1</option>
+                                        <select name="service" class="form-control" id="service" required>
+                                            <option value="">For</option>
+                                            <option value="personal">For personal</option>
+                                            <option value="organisation">For organisation</option>
+                                            <option value="school">For school</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <input type="time" name="" class="form-control" id="" placeholder="Time" required>
+                                        <select name="time" class="form-control" id="time" required>
+                                            <option value="">Time</option>
+                                            <option value="10:00 AM">Morning 10:00</option>
+                                            <option value="12:00 PM">Afternoon 12:00</option>
+                                            <option value="02:00 PM">Afternoon 02:00</option>
+                                            <option value="04:00 PM">Evening 04:00</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <input type="tel" pattern="[0-9]{1}[0-9]{9}" name="mobile" class="form-control" id="" required>
                                     </div>
                                     <div class="col-12 mb-4">
-                                        <textarea name="" id="" rows="8" class="form-control" placeholder="Your Note"></textarea>
+                                        <textarea name="note" id="" rows="8" class="form-control" placeholder="Your Note"></textarea>
                                     </div>
                                     <div class="col-12 mb-4">
                                         <input type="submit" value="Make an Appointment" class="make-an-appointment bg-primary text-white">
@@ -538,5 +548,6 @@
                 element.fadeIn(1000);
             },3000);
             </script>
+            <script src="./js/appointment.js"></script>
     </body>
 </html>
