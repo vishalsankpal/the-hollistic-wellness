@@ -575,17 +575,38 @@ main.industrial-health-page .objective {
   background-color: #f3f0f0;
 }
 
+:target {
+  position: relative;
+  border-top: 80px solid transparent;
+  margin: -80px 0 0;
+  background-clip: padding-box;
+}
+
+:target::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+}
+
 header nav .navbar-brand img {
-  width: 80px;
+  width: 40px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+main .dummyhearder {
+  height: 40px;
 }
 
 main section .paragraph-text {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 991px) {
   main section .paragraph-text {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -714,13 +735,21 @@ main section.explore-more {
   background: #f9f9f9;
 }
 
-main section.explore-more .border-right {
+main section.explore-more .bordercustom {
   border-right: 1px solid #dee2e6;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.explore-more .bordercustom {
+    border-bottom: 1px solid #dee2e6;
+    border-right: 0px;
+    margin-bottom: 40px;
+  }
 }
 
 main section.explore-more .nav-pills .nav-link {
   padding-left: 0;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 100;
   color: #adb5bd;
   line-height: 1.2;
@@ -729,21 +758,36 @@ main section.explore-more .nav-pills .nav-link {
 
 @media only screen and (max-width: 991px) {
   main section.explore-more .nav-pills .nav-link {
-    font-size: 22px;
+    font-size: 18px;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   main section.explore-more .nav-pills .nav-link {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 main section.explore-more .nav-pills .nav-link.active {
   background: none;
   color: #007bff;
-  padding-left: 20px;
   position: relative;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+main section.explore-more .nav-pills .nav-link.active div {
+  border-bottom: 1px #007bff solid;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.explore-more .nav-pills .nav-link.active div {
+    margin: auto;
+  }
 }
 
 main section.explore-more .tab-heading {
@@ -874,7 +918,7 @@ footer .mega-footer {
 }
 
 footer .mega-footer .footer-logo {
-  width: 100px;
+  width: 130px;
 }
 
 footer .mega-footer ul.social-icons li {

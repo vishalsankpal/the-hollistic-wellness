@@ -14,21 +14,40 @@ $theme-gardient:linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
 @import 'corporate-health';
 @import 'industrial-health';
 
+:target {
+    position: relative;
+    border-top: 80px solid transparent;
+    margin: -80px 0 0;
+    background-clip: padding-box;
+ }
+ 
+ :target::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+ }
+
 header{
     nav{
         .navbar-brand{
             img{
-                width: 80px;
+                width: 40px;
+                transform: scale(1.5);
             }
         }
     }
 }
 main{
+    .dummyhearder{
+        height: 40px;
+    }
     section{
         .paragraph-text{
-            font-size: 18px;
+            font-size: 16px;
             @media only screen and (max-width:991px){
-                font-size: 16px;
+                font-size: 15px;
             }
             @media only screen and (max-width:475px){
                 font-size: 14px;
@@ -109,38 +128,48 @@ main{
                 background-position-x: 50px;
             }
         }
-        &.about-us{
-            
-        }
         &.time-to-change{
             padding: 60px 0;
         }
         &.explore-more{
             padding: 60px 0;
             background: #f9f9f9;
-            .border-right {
+            .bordercustom {
                 border-right: 1px solid #dee2e6;
+                @media only screen and (max-width:991px){
+                    border-bottom: 1px solid #dee2e6;
+                    border-right: 0px;
+                    margin-bottom: 40px;
+                }
             }
             .nav-pills{
                 .nav-link {
                     padding-left: 0;
-                    font-size: 26px;
+                    font-size: 18px;
                     font-weight: 100;
                     color: #adb5bd;
                     line-height: 1.2;
                     margin-bottom: 10px;
                     @media only screen and (max-width:991px){
-                        font-size: 22px;
+                        font-size: 18px;
+                        text-align: center;
                     }
                     @media only screen and (max-width:600px){
-                        font-size: 20px;
+                        font-size: 18px;
                     }
                 }
                 .nav-link.active {
                     background: none;
                     color: #007bff;
-                    padding-left: 20px;
                     position: relative;
+                    transform: scale(1.02);
+                }
+                .nav-link.active div{
+                    border-bottom: 1px #007bff solid;
+                    width: max-content;
+                    @media only screen and (max-width:991px){
+                        margin: auto;
+                    }
                 }
             }
             .tab-heading{
@@ -250,7 +279,7 @@ footer{
         padding: 60px 0;
         background: #000;
         .footer-logo{
-            width: 100px;
+            width: 130px;
         }
         ul.social-icons {
             li{
