@@ -45,7 +45,8 @@ main{
         }
         &.header-mobile{
             padding: 150px 0;
-            background:$theme-gardient;
+            background: linear-gradient(45deg, #88b5d4, #346eef6b),url(../images/bannerimg.jpg);
+            background-size: cover;
             position: relative;
             .show-case-heading{
                 font-size: 45px;
