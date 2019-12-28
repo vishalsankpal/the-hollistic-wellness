@@ -484,28 +484,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <script>
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 15,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 2
-                    }
-                }
-            })
-            var date = new Date().getFullYear();
-            $('.date').text(date); 
-            var name = 'TEAM';
-            $('.name').text(name);
-        </script>
+        <script src="./js/dateAndCompanyName.js"></script>
+        <script src="./js/customOwlCarosal.js"></script>
+        
         <script>
                 var servicelist = [
                 "Preventive health check-up",
