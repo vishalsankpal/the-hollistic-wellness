@@ -111,7 +111,20 @@ main.school-health-page .health-screening .MS-content .item {
   margin: 0 10px;
   /* recommended */
   text-align: center;
+  min-height: 320px;
   height: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  main.school-health-page .health-screening .MS-content .item {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main.school-health-page .health-screening .MS-content .item {
+    width: 96%;
+  }
 }
 
 main.school-health-page .health-screening .MS-content .item li {
@@ -122,15 +135,23 @@ main.school-health-page .health-screening #exampleSlider .MS-controls button {
   all: unset;
   position: absolute;
   /* recommended */
-  top: 35px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
 }
 
 main.school-health-page .health-screening #exampleSlider .MS-controls .MS-left {
-  left: 10px;
+  left: 0%;
 }
 
 main.school-health-page .health-screening #exampleSlider .MS-controls .MS-right {
-  right: 10px;
+  right: 0%;
 }
 
 main.school-health-page .health-awareness {
@@ -154,11 +175,45 @@ main.school-health-page .health-awareness .even .col-lg-8 {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 991px) {
+  main.school-health-page .health-awareness .even .col-lg-8 {
+    left: -20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main.school-health-page .health-awareness .even .col-lg-8 {
+    left: 3px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  main.school-health-page .health-awareness .even .col-lg-8 {
+    left: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+}
+
 main.school-health-page .health-awareness .even .col-lg-4 {
   left: 55px;
   z-index: 1;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  main.school-health-page .health-awareness .even .col-lg-4 {
+    left: -24px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  main.school-health-page .health-awareness .even .col-lg-4 {
+    left: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
 }
 
 main.school-health-page .health-awareness .odd .col-lg-8 {
@@ -167,11 +222,46 @@ main.school-health-page .health-awareness .odd .col-lg-8 {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 991px) {
+  main.school-health-page .health-awareness .odd .col-lg-8 {
+    left: 20px;
+    margin-top: 75px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main.school-health-page .health-awareness .odd .col-lg-8 {
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  main.school-health-page .health-awareness .odd .col-lg-8 {
+    left: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+}
+
 main.school-health-page .health-awareness .odd .col-lg-4 {
   left: -55px;
   z-index: 1;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+  main.school-health-page .health-awareness .odd .col-lg-4 {
+    left: -135px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  main.school-health-page .health-awareness .odd .col-lg-4 {
+    left: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
 }
 
 @media only screen and (min-width: 100px) {
@@ -244,6 +334,10 @@ main.corporate-health section.program-deliverables p.mw-700 {
   max-width: 700px;
 }
 
+main.corporate-health section.first-aid-section {
+  padding: 60px 0;
+}
+
 main.corporate-health .health-screening #exampleSlider {
   position: relative;
   /* recommended */
@@ -279,6 +373,18 @@ main.corporate-health .health-screening .MS-content .item {
   height: auto;
 }
 
+@media only screen and (max-width: 991px) {
+  main.corporate-health .health-screening .MS-content .item {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main.corporate-health .health-screening .MS-content .item {
+    width: 96%;
+  }
+}
+
 main.corporate-health .health-screening .MS-content .item li {
   text-align: left;
 }
@@ -287,15 +393,53 @@ main.corporate-health .health-screening #exampleSlider .MS-controls button {
   all: unset;
   position: absolute;
   /* recommended */
-  top: 35px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
 }
 
 main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
-  left: 10px;
+  left: 0%;
+}
+
+@media only screen and (max-width: 991px) {
+  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
+    left: 2%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
+    left: 7%;
+  }
 }
 
 main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
-  right: 10px;
+  right: -3%;
+}
+
+@media only screen and (max-width: 991px) {
+  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
+    right: -4%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
+    right: -7%;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
+    right: -10%;
+  }
 }
 
 main.corporate-health .health-awareness {
@@ -421,6 +565,34 @@ main section .paragraph-text {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section .paragraph-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  main section .paragraph-text {
+    font-size: 14px;
+  }
+}
+
+main section .section-heading {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  main section .section-heading {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  main section .section-heading {
+    font-size: 22px;
+  }
+}
+
 main section.header-mobile {
   padding: 150px 0;
   background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
@@ -433,8 +605,26 @@ main section.header-mobile .show-case-heading {
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section.header-mobile .show-case-heading {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  main section.header-mobile .show-case-heading {
+    font-size: 34px;
+  }
+}
+
 main section.header-mobile .show-case-disdcription {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.header-mobile .show-case-disdcription {
+    font-size: 16px;
+  }
 }
 
 main section.header-mobile .about-us {
@@ -444,12 +634,36 @@ main section.header-mobile .about-us {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section.header-mobile .about-us {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
 main section.buisness-based {
   top: -55px;
 }
 
-main section.buisness-based p, main section.buisness-based h3 {
+main section.buisness-based p {
   letter-spacing: 0.7px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.buisness-based p {
+    font-size: 14px;
+  }
+}
+
+main section.buisness-based h3 {
+  letter-spacing: 0.7px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.buisness-based h3 {
+    font-size: 18px;
+  }
 }
 
 main section.buisness-based .icon {
@@ -494,11 +708,39 @@ main section.explore-more .nav-pills .nav-link {
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section.explore-more .nav-pills .nav-link {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main section.explore-more .nav-pills .nav-link {
+    font-size: 20px;
+  }
+}
+
 main section.explore-more .nav-pills .nav-link.active {
   background: none;
   color: #007bff;
   padding-left: 20px;
   position: relative;
+}
+
+main section.explore-more .tab-heading {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.explore-more .tab-heading {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main section.explore-more .tab-heading {
+    font-size: 18px;
+  }
 }
 
 main section.staff-recruitment-services {
@@ -588,6 +830,13 @@ main .form-section .make-an-appointment {
   border: 1px solid #fff;
   border-radius: 30px;
   outline: unset;
+}
+
+@media only screen and (max-width: 991px) {
+  main .form-section .make-an-appointment {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
 
 main .form-section .make-an-appointment:focus {

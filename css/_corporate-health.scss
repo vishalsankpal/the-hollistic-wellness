@@ -55,13 +55,12 @@ main.corporate-health{
                 max-width: 700px;
             }
         }
-    }
-        
-    .health-screening{
-        @media only screen and (max-width:1200){
-            #exampleSlider .MS-content .item { 
-            }
+        &.first-aid-section{
+            padding: 60px 0;
         }
+    }
+    .health-screening{
+        
         #exampleSlider {
             position: relative;      /* recommended */
         }
@@ -83,6 +82,12 @@ main.corporate-health{
             min-height: 505px;
             height: auto;
             // height: 300px;
+            @media only screen and (max-width:991px){
+                width: 47%;
+            }
+            @media only screen and (max-width:767px){
+                width: 96%;
+            }
         }
         .MS-content .item li{
             text-align: left;
@@ -90,13 +95,35 @@ main.corporate-health{
         #exampleSlider .MS-controls button {
             all: unset;
             position: absolute;      /* recommended */
-            top: 35px;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            background: $theme-gardient;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
         }
         #exampleSlider .MS-controls .MS-left {
-            left: 10px;
+            left: 0%;
+            @media only screen and (max-width:991px){
+                left:2%;
+            }
+            @media only screen and (max-width:475px){
+                left:7%;
+            }
         }
         #exampleSlider .MS-controls .MS-right {
-            right: 10px;
+            right: -3%;
+            @media only screen and (max-width:991px){
+                right:-4%;
+            }
+            @media only screen and (max-width:375px){
+                right:-7%;
+            }
+            @media only screen and (max-width:374px){
+                right:-10%;
+            }
         }
     }
 
@@ -137,5 +164,5 @@ main.corporate-health{
             margin-bottom: 40px;
         }
     }
-        
+    
 }
