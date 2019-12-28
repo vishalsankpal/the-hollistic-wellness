@@ -421,6 +421,22 @@ main section .paragraph-text {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section .paragraph-text {
+    font-size: 16px;
+  }
+}
+
+main section .section-heading {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  main section .section-heading {
+    font-size: 26px;
+  }
+}
+
 main section.header-mobile {
   padding: 150px 0;
   background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
@@ -433,8 +449,26 @@ main section.header-mobile .show-case-heading {
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section.header-mobile .show-case-heading {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  main section.header-mobile .show-case-heading {
+    font-size: 34px;
+  }
+}
+
 main section.header-mobile .show-case-disdcription {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.header-mobile .show-case-disdcription {
+    font-size: 16px;
+  }
 }
 
 main section.header-mobile .about-us {
@@ -444,12 +478,36 @@ main section.header-mobile .about-us {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section.header-mobile .about-us {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
 main section.buisness-based {
   top: -55px;
 }
 
-main section.buisness-based p, main section.buisness-based h3 {
+main section.buisness-based p {
   letter-spacing: 0.7px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.buisness-based p {
+    font-size: 14px;
+  }
+}
+
+main section.buisness-based h3 {
+  letter-spacing: 0.7px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.buisness-based h3 {
+    font-size: 18px;
+  }
 }
 
 main section.buisness-based .icon {
@@ -494,11 +552,39 @@ main section.explore-more .nav-pills .nav-link {
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 991px) {
+  main section.explore-more .nav-pills .nav-link {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main section.explore-more .nav-pills .nav-link {
+    font-size: 20px;
+  }
+}
+
 main section.explore-more .nav-pills .nav-link.active {
   background: none;
   color: #007bff;
   padding-left: 20px;
   position: relative;
+}
+
+main section.explore-more .tab-heading {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 991px) {
+  main section.explore-more .tab-heading {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main section.explore-more .tab-heading {
+    font-size: 18px;
+  }
 }
 
 main section.staff-recruitment-services {
@@ -588,6 +674,13 @@ main .form-section .make-an-appointment {
   border: 1px solid #fff;
   border-radius: 30px;
   outline: unset;
+}
+
+@media only screen and (max-width: 991px) {
+  main .form-section .make-an-appointment {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
 
 main .form-section .make-an-appointment:focus {
