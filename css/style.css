@@ -264,18 +264,6 @@ main.school-health-page .health-awareness .odd .col-lg-4 {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  main.school-health-page .health-awareness .row.even .col-sm-4 {
-    left: -28px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  main.school-health-page .health-awareness .row.odd .col-sm-4 {
-    left: 20px;
-  }
-}
-
 @media only screen and (max-width: 991px) {
   main.school-health-page .health-awareness .row img {
     width: 200px;
