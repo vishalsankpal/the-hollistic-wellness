@@ -3,28 +3,18 @@
 <html lang="en">
 
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <![endif]-->
         <meta name="description" content="The Holistic Wellness is corporate health and wellness service provider.">
-        <meta name="keywords" content="">
+        <meta name="keywords" content="the holistic wellness,holiness,holistic,medicine,wellness,medical,school health,health">
         <meta name="author" content="TEAM">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Fontawesome -->
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-        <!-- https://fontawesome.com/v4.7.0/icons/ -->
-        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <!-- owl carosal -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <title>The Hollistic Wellness</title>
     </head>
 
@@ -100,7 +90,7 @@
                             <h1 class="show-case-heading text-white mb-4 text-center text-md-left text-uppercase">The Holistic <br><span id="typed"></span></h1>
                             <p class="show-case-disdcription text-white mb-4 text-center text-md-left">Holistic medicine is a form of healing that considers the whole person body, mind, spirit, and emotions in the quest for optimal health and wellness. According to the holistic medicine philosophy, one can achieve optimal health the primary goal of holistic medicine practice by gaining proper balance in life.</p>
                                 <button class="about-us text-center text-md-left">
-                                    <a href="#appointment-form" class="bg-primary text-white text-uppercase">
+                                    <a href="#appointmentform" class="bg-primary text-white text-uppercase">
                                         Make an Appointment
                                     </a>
                                 </button>
@@ -489,8 +479,8 @@
                 </div>
             </div>
         </footer>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -498,68 +488,6 @@
         <script src="./js/dateAndCompanyName.js"></script>
         <script src="./js/customOwlCarosal.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-        
-        <script>
-                var servicelist = [
-                "Preventive health check-up",
-                "Diagnostics services",
-                "OPD services",
-                "Onesite services",
-                "OHC (medical room services)",
-                "Onesite services",
-                "Health screening module for students ",
-                "Health awareness modules ",
-                "First Aid Training",
-                "Vaccination",
-                "Pre-Employment Health Check-up",
-                "Worker Health Check-up Camps",
-                "Health Education Talk and Medical Consoling",
-                "Wellness Programs",
-                "Medical equipment and Consumables Supplies",
-                "Pharmacy",
-                "Report Analysis",
-                "Nutrition, Yoga, Zumba Camps",
-                "Disease and Stress Management",
-                "Sex Education",
-                "Vision and Oral Care",
-                "Women Health",
-                "Workshop / Training session on Safety"
-            ];
-            
-            var element = $('#rs .servicebox .servicetext');
-            var randomehistory = "";
-
-            element[0].innerHTML = servicelist[0];
-            element[1].innerHTML = servicelist[1];
-            element[2].innerHTML = servicelist[2];
-            element[3].innerHTML = servicelist[3];
-            element[4].innerHTML = servicelist[4];
-            element[5].innerHTML = servicelist[5];
-            
-            var timer = setInterval(function(){
-                element.fadeOut(100);
-                for(i=0; i<6; i++){
-                    var randomenow = Math.floor((Math.random() * 23) + 1);
-                    var index = randomenow;
-                    if(randomenow==randomehistory){
-                        randomenow = Math.floor((Math.random() * 23) + 1);
-                    }
-                    element[i].innerHTML = servicelist[index];
-                    randomehistory = randomenow;
-                }
-                element.fadeIn(1000);
-            },3000);
-// Can also be included with a regular script tag
-
-                var options = {
-                strings: ['<span>WELLNESS</span>', '<span>WELLNESS</span>'],
-                typeSpeed: 30,
-                loop: true
-                };
-
-                var typed = new Typed('#typed', options);
-            </script>
-
-            <script src="./js/appointment.js"></script>
+        <script src="./js/appointment.js"></script>
     </body>
 </html>

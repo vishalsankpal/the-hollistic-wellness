@@ -613,7 +613,7 @@ main section .section-heading {
 }
 
 main section.header-mobile {
-  padding: 150px 0;
+  padding: 25px 0 112px;
   background: linear-gradient(45deg, #88b5d4, #346eef6b), url(../images/bannerimg.jpg);
   background-size: cover;
   position: relative;
