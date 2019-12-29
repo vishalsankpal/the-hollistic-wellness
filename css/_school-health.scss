@@ -111,9 +111,15 @@ main.school-health-page{
         }
         #exampleSlider .MS-controls .MS-left {
             left: 0%;
+            @media only screen and (max-width:572px){
+                display: none
+            }
         }
         #exampleSlider .MS-controls .MS-right {
             right: -42px;
+            @media only screen and (max-width:572px){
+                display: none
+            }
         }
     }
 

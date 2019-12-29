@@ -156,8 +156,20 @@ main.school-health-page .health-screening #exampleSlider .MS-controls .MS-left {
   left: 0%;
 }
 
+@media only screen and (max-width: 572px) {
+  main.school-health-page .health-screening #exampleSlider .MS-controls .MS-left {
+    display: none;
+  }
+}
+
 main.school-health-page .health-screening #exampleSlider .MS-controls .MS-right {
   right: -42px;
+}
+
+@media only screen and (max-width: 572px) {
+  main.school-health-page .health-screening #exampleSlider .MS-controls .MS-right {
+    display: none;
+  }
 }
 
 main.school-health-page .health-awareness {
