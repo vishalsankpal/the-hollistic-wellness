@@ -89,6 +89,9 @@ main.school-health-page{
             @media only screen and (max-width:767px){
                 width: 96%;
             }
+            @media only screen and (max-width:767px){
+                width: 96%;
+            }
         }
         .MS-content .item li{
             text-align: left;
@@ -100,16 +103,17 @@ main.school-health-page{
             top: 50%;
             width: 40px;
             height: 40px;
-            background: $theme-gardient;
+            background: #ccc;
             border-radius: 50%;
             text-align: center;
-            color: #fff;
+            color: #000;
+
         }
         #exampleSlider .MS-controls .MS-left {
             left: 0%;
         }
         #exampleSlider .MS-controls .MS-right {
-            right: 0%;
+            right: -42px;
         }
     }
 
