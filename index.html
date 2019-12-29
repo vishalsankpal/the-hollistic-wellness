@@ -372,13 +372,13 @@
                             <form id="appointmentform">
                                 <div class="row">
                                     <div class="col-md-6 mb-4" >
-                                        <input type="text" name="name" placeholder="Enter full name" class="form-control" id="" value="abcd" required>
+                                        <input type="text" name="name" placeholder="Enter full name" class="form-control" id="name">
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <input type="email" name="emailid" placeholder="Email address" class="form-control" id="" required>
+                                        <input type="email" name="emailid" placeholder="Email address" class="form-control" id="email" >
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <select name="service" class="form-control" id="service" required>
+                                        <select name="service" class="form-control" id="service">
                                             <option value="">For</option>
                                             <option value="personal">For personal</option>
                                             <option value="organisation">For organisation</option>
@@ -386,7 +386,7 @@
                                         </select>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <select name="time" class="form-control" id="time" required>
+                                        <select name="time" class="form-control" id="time">
                                             <option value="">Time</option>
                                             <option value="10:00 AM">Morning 10:00</option>
                                             <option value="12:00 PM">Afternoon 12:00</option>
@@ -395,13 +395,14 @@
                                         </select>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <input type="tel" pattern="[0-9]{1}[0-9]{9}" name="mobile" class="form-control" id="" required>
+                                        <input type="tel" pattern="[0-9]{1}[0-9]{9}" name="mobile" class="form-control" id="tel">
                                     </div>
                                     <div class="col-12 mb-4">
-                                        <textarea name="note" id="" rows="8" class="form-control" placeholder="Your Note"></textarea>
+                                        <textarea name="note" id="note" rows="8" class="form-control" placeholder="Your Note"></textarea>
                                     </div>
                                     <div class="col-12 mb-4">
-                                        <input type="submit" value="Make an Appointment" class="make-an-appointment bg-primary text-white">
+                                         <!-- <button type="submit" name="submit" value="Make an Appointment" class="make-an-appointment bg-primary text-white"> Make an Appointment</button> -->
+                                            <input type="submit" id="appointment" name="submit" value="Make an Appointment" class="make-an-appointment bg-primary text-white">
                                     </div>
                                 </div>
                             </form>
