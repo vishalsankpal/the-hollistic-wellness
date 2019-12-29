@@ -422,47 +422,29 @@ main.corporate-health .health-screening #exampleSlider .MS-controls button {
   top: 50%;
   width: 40px;
   height: 40px;
-  background: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  background: #ccc;
   border-radius: 50%;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
   left: 0%;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 572px) {
   main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
-    left: 2%;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-left {
-    left: 7%;
+    display: none;
   }
 }
 
 main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
-  right: -3%;
+  right: -42px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 572px) {
   main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
-    right: -4%;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
-    right: -7%;
-  }
-}
-
-@media only screen and (max-width: 374px) {
-  main.corporate-health .health-screening #exampleSlider .MS-controls .MS-right {
-    right: -10%;
+    display: none;
   }
 }
 
@@ -600,7 +582,6 @@ main .sectionclass {
 
 main section .paragraph-text {
   font-size: 16px;
-  text-align: justify;
 }
 
 @media only screen and (max-width: 991px) {
