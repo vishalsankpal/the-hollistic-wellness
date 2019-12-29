@@ -4,11 +4,14 @@ $(document).ready(function(){
         e.preventDefault();
         // var x = $('#appointmentform1').serialize();
         // console.log(x);
+        $('#appointment').hide();
         $.ajax({
             url:'https://us-central1-the-holistic-wellness.cloudfunctions.net/sendMail',
             data:$('#appointmentform1').serialize(),
             success:function(result){
                 console.log(result);
+                $('#appointment').show();
+                alert("Appointment request has been sent");
             }
         })
 
