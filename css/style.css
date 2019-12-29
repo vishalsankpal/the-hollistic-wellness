@@ -657,6 +657,10 @@ main section.header-mobile .show-case-heading {
   }
 }
 
+main section.header-mobile .typed-cursor {
+  font-weight: 400;
+}
+
 main section.header-mobile .show-case-disdcription {
   font-size: 18px;
 }
@@ -667,11 +671,19 @@ main section.header-mobile .show-case-disdcription {
   }
 }
 
+main section.header-mobile a {
+  text-decoration: none;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 main section.header-mobile .about-us {
   all: unset;
   padding: 11px 25px;
   border-radius: 26px;
   font-size: 18px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 991px) {

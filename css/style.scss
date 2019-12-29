@@ -78,17 +78,25 @@ main{
                     font-size: 34px;
                 }
             }
+            .typed-cursor{
+                font-weight: 400;
+            }
             .show-case-disdcription{
                 font-size: 18px;
                 @media only screen and (max-width:991px){
                     font-size: 16px;
                 }
             }
+            a{
+                text-decoration: none;
+                width: max-content;
+            }
             .about-us{
                 all: unset;
                 padding: 11px 25px;
                 border-radius: 26px;
                 font-size: 18px;
+                text-decoration: none;
                 @media only screen and (max-width:991px){
                     font-size: 16px;
                     padding: 10px 20px;
