@@ -14,20 +14,6 @@ $theme-gardient:linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
 @import 'corporate-health';
 @import 'industrial-health';
 
-:target {
-    position: relative;
-    border-top: 80px solid transparent;
-    margin: -80px 0 0;
-    background-clip: padding-box;
- }
- 
- :target::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: 0;
-    right: 0;
- }
 
 header{
     nav{
@@ -43,8 +29,8 @@ header{
     }
 }
 main{
-    .dummyhearder{
-        height: 40px;
+    .sectionclass{
+        padding-top: 80px;
     }
     section{
         .paragraph-text{
@@ -92,6 +78,7 @@ main{
             }
             
             .about-us{
+                
                 all: unset;
                 a{
                     padding: 11px 25px;
