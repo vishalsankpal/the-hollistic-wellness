@@ -584,6 +584,13 @@ header nav .navbar-brand img {
           transform: scale(1.5);
 }
 
+@media only screen and (max-width: 992px) {
+  header nav .navbar-brand img {
+    -webkit-transform: unset;
+            transform: unset;
+  }
+}
+
 main .dummyhearder {
   height: 40px;
 }
@@ -659,15 +666,11 @@ main section.header-mobile .show-case-disdcription {
   }
 }
 
-main section.header-mobile a {
-  text-decoration: none;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
 main section.header-mobile .about-us {
   all: unset;
+}
+
+main section.header-mobile .about-us a {
   padding: 11px 25px;
   border-radius: 26px;
   font-size: 18px;
@@ -675,7 +678,7 @@ main section.header-mobile .about-us {
 }
 
 @media only screen and (max-width: 991px) {
-  main section.header-mobile .about-us {
+  main section.header-mobile .about-us a {
     font-size: 16px;
     padding: 10px 20px;
   }
