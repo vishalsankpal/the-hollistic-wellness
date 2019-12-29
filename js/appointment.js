@@ -2,8 +2,16 @@
 $(document).ready(function(){
     $('#appointment').click(function(e){
         e.preventDefault();
-        var x = $('#appointmentform').serialize();
-        console.log(x);
+        // var x = $('#appointmentform1').serialize();
+        // console.log(x);
+        $.ajax({
+            url:'https://us-central1-the-holistic-wellness.cloudfunctions.net/sendMail',
+            data:$('#appointmentform1').serialize(),
+            success:function(result){
+                console.log(result);
+            }
+        })
+
     })
     
     $(document).scroll(function(){

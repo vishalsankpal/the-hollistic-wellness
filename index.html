@@ -360,16 +360,17 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-12">
                             <h1 class="text-center text-lg-left text-white lg-5 section-heading">Make an Appointment</h1>
-                            <form id="appointmentform">
+                            
+                            <form action="" onsubmit="sendmail();" method="GET" id="appointmentform1">
                                 <div class="row">
                                     <div class="col-md-6 mb-4" >
-                                        <input type="text" name="name" placeholder="Full name" class="form-control" id="" required>
+                                        <input type="text" name="name" placeholder="Full name" class="form-control" id="nameinput" required>
+                                    </div>
+                                    <!-- <div class="col-md-6 mb-4">
+                                        <input type="email" name="emailid" placeholder="Email ID" class="form-control" id="emailinput" >
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <input type="email" name="emailid" placeholder="Email ID" class="form-control" id="email" >
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <select name="service" class="form-control" id="service">
+                                        <select name="service" class="form-control" id="serviceinput">
                                             <option value="">Service</option>
                                             <option value="personal">Personal</option>
                                             <option value="organisation">Organisation</option>
@@ -377,7 +378,7 @@
                                         </select>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <select name="time" class="form-control" id="time">
+                                        <select name="time" class="form-control" id="timeinput">
                                             <option value="">Time</option>
                                             <option value="10:00 AM">Morning 10:00</option>
                                             <option value="12:00 PM">Afternoon 12:00</option>
@@ -386,17 +387,17 @@
                                         </select>
                                     </div>
                                     <div class="col-md-6 mb-4">
-                                        <input type="tel" pattern="[0-9]{1}[0-9]{9}" name="mobile" class="form-control" id="" placeholder="Contact Number" required>
+                                        <input type="tel" pattern="[0-9]{1}[0-9]{9}" name="mobile" class="form-control" id="mobileinput" placeholder="Contact Number" required>
                                     </div>
                                     <div class="col-12 mb-4">
-                                        <textarea name="note" id="" rows="5" class="form-control" placeholder="Your Note"></textarea>
-                                    </div>
+                                        <textarea name="note" id="noteinput" rows="5" class="form-control" placeholder="Your Note"></textarea>
+                                    </div>-->
                                     <div class="col-12 mb-4">
-                                         <!-- <button type="submit" name="submit" value="Make an Appointment" class="make-an-appointment bg-primary text-white"> Make an Appointment</button> -->
                                             <input type="submit" id="appointment" name="submit" value="Make an Appointment" class="make-an-appointment bg-primary text-white">
-                                    </div>
+                                    </div> 
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
