@@ -99,30 +99,21 @@ main.corporate-health{
             top: 50%;
             width: 40px;
             height: 40px;
-            background: $theme-gardient;
+            background: #ccc;
             border-radius: 50%;
             text-align: center;
-            color: #fff;
+            color: #000;
         }
         #exampleSlider .MS-controls .MS-left {
             left: 0%;
-            @media only screen and (max-width:991px){
-                left:2%;
-            }
-            @media only screen and (max-width:475px){
-                left:7%;
+            @media only screen and (max-width:572px){
+                display: none
             }
         }
         #exampleSlider .MS-controls .MS-right {
-            right: -3%;
-            @media only screen and (max-width:991px){
-                right:-4%;
-            }
-            @media only screen and (max-width:375px){
-                right:-7%;
-            }
-            @media only screen and (max-width:374px){
-                right:-10%;
+            right: -42px;
+            @media only screen and (max-width:572px){
+                display: none
             }
         }
     }
